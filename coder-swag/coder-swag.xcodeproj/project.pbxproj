@@ -13,6 +13,8 @@
 		CC3B6E4E204997D0009FB4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3B6E4D204997D0009FB4FA /* Assets.xcassets */; };
 		CC3B6E51204997D0009FB4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3B6E4F204997D0009FB4FA /* LaunchScreen.storyboard */; };
 		CC3B6E5C204D817E009FB4FA /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B6E5B204D817E009FB4FA /* CategoryCell.swift */; };
+		CC3B6E63204DA5D1009FB4FA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B6E62204DA5D1009FB4FA /* DataService.swift */; };
+		CC3B6E65204DAA1D009FB4FA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B6E64204DAA1D009FB4FA /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CC3B6E50204997D0009FB4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3B6E52204997D0009FB4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3B6E5B204D817E009FB4FA /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		CC3B6E62204DA5D1009FB4FA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CC3B6E64204DAA1D009FB4FA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		CC3B6E45204997D0009FB4FA /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				CC3B6E5F204DA597009FB4FA /* Services */,
 				CC3B6E5A204D80FD009FB4FA /* View */,
 				CC3B6E59204D80F7009FB4FA /* Model */,
 				CC3B6E58204D80EA009FB4FA /* Controller */,
@@ -79,6 +84,7 @@
 		CC3B6E59204D80F7009FB4FA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC3B6E64204DAA1D009FB4FA /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				CC3B6E5B204D817E009FB4FA /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CC3B6E5F204DA597009FB4FA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CC3B6E62204DA5D1009FB4FA /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,8 @@
 				CC3B6E49204997D0009FB4FA /* CategoriesVC.swift in Sources */,
 				CC3B6E47204997D0009FB4FA /* AppDelegate.swift in Sources */,
 				CC3B6E5C204D817E009FB4FA /* CategoryCell.swift in Sources */,
+				CC3B6E63204DA5D1009FB4FA /* DataService.swift in Sources */,
+				CC3B6E65204DAA1D009FB4FA /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
